@@ -1,6 +1,6 @@
-# smlhelp.github.io
+# roshanr11.github.io/cmu_afs_tutorial
 
-Thanks for checking out `smlhelp.github.io`! 
+Thanks for checking out `roshanr11.github.io/cmu_afs_tutorial`! 
 
 ## How to contribute
 
