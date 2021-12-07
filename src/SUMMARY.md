@@ -15,7 +15,7 @@
 - [Exiting AFS](concepts/README.md)
 - [Basic Linux Commands](types/linux.md)
   - [file paths](types/file-paths.md)
-  - [cd](types/bool.md)
+  - [cd](types/cd.md)
   - [ls](types/int.md)
   - [rm](types/real.md)
   - [mv](types/string.md)
