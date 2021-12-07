@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Using SSH - AFS Tutorial</title>
+        <title>file paths - AFS Tutorial</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="A resource for learning AFS">
@@ -77,7 +77,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Welcome!</a></li><li class="chapter-item expanded "><a href="../start/index.html"><strong aria-hidden="true">1.</strong> What is AFS?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../start/install.html"><strong aria-hidden="true">1.1.</strong> Install &amp; run SML</a></li><li class="chapter-item expanded "><a href="../start/syntax.html"><strong aria-hidden="true">1.2.</strong> Syntax Cheatsheet</a></li><li class="chapter-item expanded "><a href="../start/common.html"><strong aria-hidden="true">1.3.</strong> Common Tasks</a></li></ol></li><li class="chapter-item expanded "><a href="../types/index.html"><strong aria-hidden="true">2.</strong> Setting up SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../types/type.html"><strong aria-hidden="true">2.1.</strong> MacOS</a></li><li class="chapter-item expanded "><a href="../types/sig.html"><strong aria-hidden="true">2.2.</strong> Linux</a></li><li class="chapter-item expanded "><a href="../types/sig.html"><strong aria-hidden="true">2.3.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="../debugging/index.html" class="active"><strong aria-hidden="true">3.</strong> Using SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../debugging/errors.html"><strong aria-hidden="true">3.1.</strong> Using SSH</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">4.</strong> Exiting AFS</a></li><li class="chapter-item expanded "><a href="../types/type.html"><strong aria-hidden="true">5.</strong> Basic Linux Commands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../types/file-paths.html"><strong aria-hidden="true">5.1.</strong> file paths</a></li><li class="chapter-item expanded "><a href="../types/bool.html"><strong aria-hidden="true">5.2.</strong> cd</a></li><li class="chapter-item expanded "><a href="../types/int.html"><strong aria-hidden="true">5.3.</strong> ls</a></li><li class="chapter-item expanded "><a href="../types/real.html"><strong aria-hidden="true">5.4.</strong> rm</a></li><li class="chapter-item expanded "><a href="../types/string.html"><strong aria-hidden="true">5.5.</strong> mv</a></li></ol></li><li class="chapter-item expanded "><a href="../types/afs-file-transfer.html"><strong aria-hidden="true">6.</strong> AFS File Transfer</a></li><li class="chapter-item expanded "><a href="../types/type.html"><strong aria-hidden="true">7.</strong> AFS Workflow Overview</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../types/type.html"><strong aria-hidden="true">7.1.</strong> SUB - AFS Workflow Overview</a></li></ol></li><li class="chapter-item expanded "><a href="../about.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Welcome!</a></li><li class="chapter-item expanded "><a href="../start/index.html"><strong aria-hidden="true">1.</strong> What is AFS?</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../start/install.html"><strong aria-hidden="true">1.1.</strong> Install &amp; run SML</a></li><li class="chapter-item expanded "><a href="../start/syntax.html"><strong aria-hidden="true">1.2.</strong> Syntax Cheatsheet</a></li><li class="chapter-item expanded "><a href="../start/common.html"><strong aria-hidden="true">1.3.</strong> Common Tasks</a></li></ol></li><li class="chapter-item expanded "><a href="../types/index.html"><strong aria-hidden="true">2.</strong> Setting up SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../types/type.html"><strong aria-hidden="true">2.1.</strong> MacOS</a></li><li class="chapter-item expanded "><a href="../types/sig.html"><strong aria-hidden="true">2.2.</strong> Linux</a></li><li class="chapter-item expanded "><a href="../types/sig.html"><strong aria-hidden="true">2.3.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="../debugging/index.html"><strong aria-hidden="true">3.</strong> Using SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../debugging/errors.html"><strong aria-hidden="true">3.1.</strong> Using SSH</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts/index.html"><strong aria-hidden="true">4.</strong> Exiting AFS</a></li><li class="chapter-item expanded "><a href="../types/type.html"><strong aria-hidden="true">5.</strong> Basic Linux Commands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../types/file-paths.html" class="active"><strong aria-hidden="true">5.1.</strong> file paths</a></li><li class="chapter-item expanded "><a href="../types/bool.html"><strong aria-hidden="true">5.2.</strong> cd</a></li><li class="chapter-item expanded "><a href="../types/int.html"><strong aria-hidden="true">5.3.</strong> ls</a></li><li class="chapter-item expanded "><a href="../types/real.html"><strong aria-hidden="true">5.4.</strong> rm</a></li><li class="chapter-item expanded "><a href="../types/string.html"><strong aria-hidden="true">5.5.</strong> mv</a></li></ol></li><li class="chapter-item expanded "><a href="../types/afs-file-transfer.html"><strong aria-hidden="true">6.</strong> AFS File Transfer</a></li><li class="chapter-item expanded "><a href="../types/type.html"><strong aria-hidden="true">7.</strong> AFS Workflow Overview</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../types/type.html"><strong aria-hidden="true">7.1.</strong> SUB - AFS Workflow Overview</a></li></ol></li><li class="chapter-item expanded "><a href="../about.html">About</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -136,16 +136,27 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="debugging"><a class="header" href="#debugging">Debugging</a></h1>
+                        <h1 id="file-paths"><a class="header" href="#file-paths">File Paths</a></h1>
+<p>A file path is a way to specify the location of a file within a file system.</p>
+<p>For example:</p>
+<img src="assets/../../assets/filepaths.png" height="200" />
+<p>If you are currently located in the <code>doc</code> directory, to get the file path to <code>code_style.doctree</code>, the desired filepath would be:</p>
+<pre><code>./build/doctrees/development/code_style.doctree
+</code></pre>
+<h2 id="helpful-commands"><a class="header" href="#helpful-commands">Helpful commands</a></h2>
+<p>Use <code>pwd</code> in your current directory to get your current file path.</p>
+<p><code>.</code> specifies the current directory in your file path.</p>
+<p><code>..</code> lets you 'go backwards' a directory in your file path. </p>
+<p>On most operating systems, you can use your file navigator (i.e, File Explorer on Windows) to get the file path of a file. Typically you can right-click the file and there will be an option for 'more info' that will list the desired file path.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../types/sig.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../types/type.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../debugging/errors.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../types/bool.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -154,10 +165,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../types/sig.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../types/type.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../debugging/errors.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../types/bool.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
