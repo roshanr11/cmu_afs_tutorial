@@ -136,20 +136,14 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="installing-smlnj"><a class="header" href="#installing-smlnj">Installing SML/NJ</a></h1>
-<p><em>By Brandon Wu, May 2020</em></p>
-<h2 id="installing-smlnj-on-afs"><a class="header" href="#installing-smlnj-on-afs">Installing SML/NJ on AFS</a></h2>
-<p>To set up your SML/NJ environment on the Andrew File System (AFS), first you will need to log in to AFS.</p>
-<p>You can do this by executing the command
-<code>ssh &lt;andrew_id&gt;@unix.andrew.cmu.edu</code></p>
-<p>You can do this from a terminal very straightforwardly on a Mac. If you are on a Windows machine, you may need to use an application such as Visual Studio Code or MobaXTerm to access a terminal.</p>
-<p>Once you are in AFS, execute the command 
-<code>/afs/andrew/course/15/150/bin/setup-path</code></p>
-<p>Once the script has finished running, type in the command that it tells you to. It should look something like
-<code>. '/afs/andrew.cmu.edu/usrc/&lt;andrew_id&gt;/.bashrc</code></p>
-<p><strong>IMPORTANT:</strong> <em>Do not forget the . at the beginning!</em> This will cause the script to not work. </p>
-<p>After finishing this, you should be able to type in <code>smlnj</code> from the command line and access the SML/NJ REPL.</p>
-
+                        <h1 id="afs-overview"><a class="header" href="#afs-overview">AFS Overview</a></h1>
+<p>Imagine a file system similar to the one on your personal computer, except all students and faculty of Carnegie Mellon University can create, access and edit files on the system. That describes the Andrew FIle System in a nutshell - a global file system that allows access to files from Mac, Windows or Linux computers. </p>
+<p>Unlike cloud storage, the data is stored locally at Carnegie Mellon University and accessed via trusted remote servers.</p>
+<p>Here's a visual depction of what's going on:</p>
+<figure class="aligncenter">
+    <img src="../assets/76270_image1.png"
+    width="600" class="center"/>
+</figure>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
