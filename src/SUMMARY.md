@@ -13,7 +13,7 @@
 - [Using SSH](debugging/README.md)
   - [Using SSH](debugging/errors.md)
 - [Exiting AFS](concepts/README.md)
-- [Basic Linux Commands](types/type.md)
+- [Basic Linux Commands](types/linux.md)
   - [file paths](types/file-paths.md)
   - [cd](types/bool.md)
   - [ls](types/int.md)
