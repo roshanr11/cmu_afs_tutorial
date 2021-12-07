@@ -1,7 +1,7 @@
 [book]
-title = "SML Help"
-author = "15-150 staff"
-description = "A resource for learning SML"
+title = "AFS Tutorial"
+author = "Roshan, Grace, and Shreya"
+description = "A resource for learning AFS"
 
 [build]
 build-dir = "docs/"
