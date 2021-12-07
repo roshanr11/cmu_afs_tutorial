@@ -20,5 +20,5 @@ scp ANDREWID@unix.andrew.cmu.edu:[file path within AFS] .
 To transfer a file from your computer to AFS use:
 
 ```
-scp [file path in your computer] ANDREWID@unix.andrew.cmu.edu:[desired file path in AFS]
+scp [file path] ANDREWID@unix.andrew.cmu.edu:[desired file path in AFS]
 ```

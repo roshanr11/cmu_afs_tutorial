@@ -1,6 +1,6 @@
 # cd
 
-You can use this command to around directories/folders in your filesystem.
+You can use this command to move around directories/folders in your filesystem.
 
 To enter a directory, use:
 
