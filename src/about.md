@@ -1,16 +1,7 @@
 # About
 
-SML Help is a joint venture between previous and current teaching assistants of
-the computer science course 15-150: Principles of Functional Programming, taught
-at Carnegie Mellon University. It is aimed at being a comprehensive and
-accessible resource to students of 150, as well as those just interested in
-learning functional programming concepts in general, as viewed through the lens
-of the Standard ML language.
+The AFS Tutorial is created by Roshan Ram, Grace Kang, and Shreya Manjunath, as part of 76-270, 
+Writing for The Professions. We aim to build out a lightweight website, which helps students understand 
+the barebones basics of how to use the Andrew File System, in a user-friendly manner. 
 
-Teaching assistants form the backbone of 15-150, and SML Help no less. Without
-them, this page would not have been possible. Special credit goes to Jacob
-Neumann and Cam Wong for their instrumental work in getting the website working.
-
-Contributors to SML Help include:
-
-Brandon Wu, Cooper Pierce, David Sun, Eunice Chen, Harrison Grodin, James Gallicchio, Kaz Zhou and Len Huang
+References: We draw upon the structure created by 15-150's [smlhelp.github.io](https://github.com/smlhelp/book). 
