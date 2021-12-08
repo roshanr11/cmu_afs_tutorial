@@ -136,7 +136,34 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="signatures"><a class="header" href="#signatures">Signatures</a></h1>
+                        <h1 id="setting-up-ssh-on-your-computer"><a class="header" href="#setting-up-ssh-on-your-computer">Setting up SSH on your computer</a></h1>
+<h2 id="windows"><a class="header" href="#windows">Windows</a></h2>
+<br/>
+<p>You can either use <a href="https://docs.microsoft.com/en-us/windows/wsl/">Windows Subsystem for Linux</a> or <a href="https://mobaxterm.mobatek.net/">MobaXterm(recommended)</a> as your terminal. The instructions for setup and use of <strong>MobaXterm</strong> are detailed below. If you use WSL, feel free to skep the following instructions.</p>
+<br/>
+<ol>
+<li>Download and Install the Installer edition of MobaXterm <a href="https://mobaxterm.mobatek.net/download-home-edition.html">here</a>.</li>
+<li>Open the application to see a prompt where you can directly SSH like you would do on a normal Mac terminal.</li>
+</ol>
+<p align="center">
+    <img src="../../img/MobaXterm1.png">
+</p>
+<p>The terminal will prompt you to enter your password - use the same password you use to log onto WebISO</p>
+<ol start="3">
+<li><strong>Save Session (optional)</strong>: If you don’t want to type out your username and hostname every time you SSH into AFS, you can ‘Save Session’. Click the ‘Save session’ button at the top left corner of the MobaXterm window.</li>
+</ol>
+<p align="center">
+    <img src="../../img/MobaXterm2.png">
+</p>
+<p>This will open up a window where you can save your SSH session settings. As indicated by the image below, the fields and values you’ll need to populate are:</p>
+<ul>
+<li><strong>Remote host: unix.andrew.cmu.edu</strong></li>
+<li><strong>Specify username: check the box, then <code>your_andrewID</code></strong></li>
+<li><strong>Port: 22</strong></li>
+</ul>
+<p align="center">
+    <img src="../../img/mobaXTerm1.png">
+</p>
 
                     </main>
 
