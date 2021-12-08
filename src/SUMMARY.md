@@ -2,10 +2,7 @@
 
 [Welcome!](README.md)
 
-- [What is AFS?](start/README.md)
-  - [Install & run SML](start/install.md)
-  - [Syntax Cheatsheet](start/syntax.md)
-  - [Common Tasks](start/common.md)
+- [What is AFS?](start/install.md)
 - [Setting up SSH](types/README.md)
   - [MacOS](types/type.md)
   - [Linux](types/sig.md)
