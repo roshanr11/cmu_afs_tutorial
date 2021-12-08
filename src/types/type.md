@@ -1,6 +1,6 @@
 # Setting up SSH on your computer
 
-**MacOS**
+## MacOS
 <br/>
 
 Open your built-in terminal: Terminal.app and type the following, replacing `ANDREWID` with your andrew ID into the terminal.
