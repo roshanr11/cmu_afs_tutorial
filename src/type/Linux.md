@@ -11,12 +11,12 @@ First, you should choose a terminal. Your distro almost certainly has one alread
 - xterm
 - xrvt-unicode
 
+<br/>
+
 Once you have downloaded the terminal, open the terminal and type the following replacing `ANDREWID` with your Andrew ID.
 
 ```
 ssh ANDREWID@unix.andrew.cmu.edu
 ```
-<br/>
-
 The terminal will prompt you to enter your password - use the same password you use to log onto WebISO
 
