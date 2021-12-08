@@ -11,3 +11,5 @@ Here's a visual depction of what's going on:
     <img src="../assets/76270_image1.png"
     width="600" class="center"/>
 </figure>
+
+**SSH** is a secure way for your computer to access an AFS remote host.
