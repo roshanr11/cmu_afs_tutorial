@@ -78,7 +78,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Welcome!</a></li><li class="chapter-item expanded "><a href="start/install.html"><strong aria-hidden="true">1.</strong> What is AFS?</a></li><li class="chapter-item expanded "><a href="types/index.html"><strong aria-hidden="true">2.</strong> Setting up SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">2.1.</strong> MacOS</a></li><li class="chapter-item expanded "><a href="types/sig.html"><strong aria-hidden="true">2.2.</strong> Linux</a></li><li class="chapter-item expanded "><a href="types/sig.html"><strong aria-hidden="true">2.3.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="debugging/index.html"><strong aria-hidden="true">3.</strong> Using SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="debugging/errors.html"><strong aria-hidden="true">3.1.</strong> Using SSH</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">4.</strong> Exiting AFS</a></li><li class="chapter-item expanded "><a href="types/linux.html"><strong aria-hidden="true">5.</strong> Basic Linux Commands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/file-paths.html"><strong aria-hidden="true">5.1.</strong> file paths</a></li><li class="chapter-item expanded "><a href="types/cd.html"><strong aria-hidden="true">5.2.</strong> cd</a></li><li class="chapter-item expanded "><a href="types/int.html"><strong aria-hidden="true">5.3.</strong> ls</a></li><li class="chapter-item expanded "><a href="types/real.html"><strong aria-hidden="true">5.4.</strong> rm</a></li><li class="chapter-item expanded "><a href="types/string.html"><strong aria-hidden="true">5.5.</strong> mv</a></li></ol></li><li class="chapter-item expanded "><a href="types/afs-file-transfer.html"><strong aria-hidden="true">6.</strong> AFS File Transfer</a></li><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">7.</strong> AFS Workflow Overview</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">7.1.</strong> SUB - AFS Workflow Overview</a></li></ol></li><li class="chapter-item expanded "><a href="about.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Welcome!</a></li><li class="chapter-item expanded "><a href="start/install.html"><strong aria-hidden="true">1.</strong> What is AFS?</a></li><li class="chapter-item expanded "><a href="types/index.html"><strong aria-hidden="true">2.</strong> Setting up SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">2.1.</strong> MacOS</a></li><li class="chapter-item expanded "><a href="type/Linux.html"><strong aria-hidden="true">2.2.</strong> Linux</a></li><li class="chapter-item expanded "><a href="types/sig.html"><strong aria-hidden="true">2.3.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="debugging/index.html"><strong aria-hidden="true">3.</strong> Using SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="debugging/errors.html"><strong aria-hidden="true">3.1.</strong> Using SSH</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">4.</strong> Exiting AFS</a></li><li class="chapter-item expanded "><a href="types/linux.html"><strong aria-hidden="true">5.</strong> Basic Linux Commands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/file-paths.html"><strong aria-hidden="true">5.1.</strong> file paths</a></li><li class="chapter-item expanded "><a href="types/cd.html"><strong aria-hidden="true">5.2.</strong> cd</a></li><li class="chapter-item expanded "><a href="types/int.html"><strong aria-hidden="true">5.3.</strong> ls</a></li><li class="chapter-item expanded "><a href="types/real.html"><strong aria-hidden="true">5.4.</strong> rm</a></li><li class="chapter-item expanded "><a href="types/string.html"><strong aria-hidden="true">5.5.</strong> mv</a></li></ol></li><li class="chapter-item expanded "><a href="types/afs-file-transfer.html"><strong aria-hidden="true">6.</strong> AFS File Transfer</a></li><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">7.</strong> AFS Workflow Overview</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">7.1.</strong> SUB - AFS Workflow Overview</a></li></ol></li><li class="chapter-item expanded "><a href="about.html">About</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -158,35 +158,22 @@ Click on the navigation links on the left to get started!</p>
 <br/>
 <p>The terminal will prompt you to enter your password - use the same password you use to log onto WebISO</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="setting-up-ssh-on-your-computer-1"><a class="header" href="#setting-up-ssh-on-your-computer-1">Setting up SSH on your computer</a></h1>
-<h2 id="windows"><a class="header" href="#windows">Windows</a></h2>
+<h2 id="linux"><a class="header" href="#linux">Linux</a></h2>
 <br/>
-<p>You can either use <a href="https://docs.microsoft.com/en-us/windows/wsl/">Windows Subsystem for Linux</a> or <a href="https://mobaxterm.mobatek.net/">MobaXterm(recommended)</a> as your terminal. The instructions for setup and use of <strong>MobaXterm</strong> are detailed below. If you use WSL, feel free to skep the following instructions.</p>
+First, you should choose a terminal. Your distro almost certainly has one already, but if you don’t, the default one you can download another. Some popular terminals are:
 <br/>
-<ol>
-<li>Download and Install the Installer edition of MobaXterm <a href="https://mobaxterm.mobatek.net/download-home-edition.html">here</a>.</li>
-<li>Open the application to see a prompt where you can directly SSH like you would do on a normal Mac terminal.</li>
-</ol>
-<p align="center">
-    <img src="types/../../img/MobaXterm1.png">
-</p>
+- Terminator
+- Konsole
+- Gnome Terminal
+- xterm
+- xrvt-unicode
+<br/>
+<p>Once you have downloaded the terminal, open the terminal and type the following replacing <code>ANDREWID</code> with your Andrew ID.</p>
+<pre><code>ssh ANDREWID@unix.andrew.cmu.edu
+</code></pre>
 <p>The terminal will prompt you to enter your password - use the same password you use to log onto WebISO</p>
-<ol start="3">
-<li><strong>Save Session (optional)</strong>: If you don’t want to type out your username and hostname every time you SSH into AFS, you can ‘Save Session’. Click the ‘Save session’ button at the top left corner of the MobaXterm window.</li>
-</ol>
-<p align="center">
-    <img src="types/../../img/MobaXterm2.png">
-</p>
-<p>This will open up a window where you can save your SSH session settings. As indicated by the image below, the fields and values you’ll need to populate are:</p>
-<ul>
-<li><strong>Remote host: unix.andrew.cmu.edu</strong></li>
-<li><strong>Specify username: check the box, then <code>your_andrewID</code></strong></li>
-<li><strong>Port: 22</strong></li>
-</ul>
-<p align="center">
-    <img src="types/../../img/mobaXTerm1.png">
-</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="setting-up-ssh-on-your-computer-2"><a class="header" href="#setting-up-ssh-on-your-computer-2">Setting up SSH on your computer</a></h1>
-<h2 id="windows-1"><a class="header" href="#windows-1">Windows</a></h2>
+<h2 id="windows"><a class="header" href="#windows">Windows</a></h2>
 <br/>
 <p>You can either use <a href="https://docs.microsoft.com/en-us/windows/wsl/">Windows Subsystem for Linux</a> or <a href="https://mobaxterm.mobatek.net/">MobaXterm(recommended)</a> as your terminal. The instructions for setup and use of <strong>MobaXterm</strong> are detailed below. If you use WSL, feel free to skep the following instructions.</p>
 <br/>
