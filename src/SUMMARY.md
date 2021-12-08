@@ -5,7 +5,7 @@
 - [What is AFS?](start/install.md)
 - [Setting up SSH](types/README.md)
   - [MacOS](types/type.md)
-  - [Linux](types/sig.md)
+  - [Linux](type/Linux.md)
   - [Windows](types/sig.md)
 - [Using SSH](debugging/README.md)
   - [Using SSH](debugging/errors.md)
