@@ -5,6 +5,7 @@
 First, you should choose a terminal. Your distro almost certainly has one already, but if you don’t, the default one you can download another. Some popular terminals are:
 
 <br/>
+
 - Terminator
 - Konsole
 - Gnome Terminal
