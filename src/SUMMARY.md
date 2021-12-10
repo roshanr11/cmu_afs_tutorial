@@ -8,7 +8,6 @@
   - [Linux](type/Linux.md)
   - [Windows](types/sig.md)
 - [Using SSH](debugging/README.md)
-  - [Using SSH](debugging/errors.md)
 - [Exiting AFS](concepts/README.md)
 - [Basic Linux Commands](types/linux.md)
   - [file paths](types/file-paths.md)
@@ -17,8 +16,7 @@
   - [rm](types/real.md)
   - [mv](types/string.md)
 - [AFS File Transfer](types/afs-file-transfer.md)
-- [AFS Workflow Overview](types/type.md)
-    - [SUB - AFS Workflow Overview](types/type.md) 
+- [AFS Workflow Overview](types/workflow.md)
 <!-- - [Examples](examples/README.md) -->
 <!--   - [Basics](examples/basics.md) -->
 <!--   - [Recursion & Induction](examples/recursion.md) -->
