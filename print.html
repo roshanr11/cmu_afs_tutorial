@@ -78,7 +78,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Welcome!</a></li><li class="chapter-item expanded "><a href="start/install.html"><strong aria-hidden="true">1.</strong> What is AFS?</a></li><li class="chapter-item expanded "><a href="types/index.html"><strong aria-hidden="true">2.</strong> Setting up SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">2.1.</strong> MacOS</a></li><li class="chapter-item expanded "><a href="type/Linux.html"><strong aria-hidden="true">2.2.</strong> Linux</a></li><li class="chapter-item expanded "><a href="types/sig.html"><strong aria-hidden="true">2.3.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="debugging/index.html"><strong aria-hidden="true">3.</strong> Using SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="debugging/errors.html"><strong aria-hidden="true">3.1.</strong> Using SSH</a></li></ol></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">4.</strong> Exiting AFS</a></li><li class="chapter-item expanded "><a href="types/linux.html"><strong aria-hidden="true">5.</strong> Basic Linux Commands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/file-paths.html"><strong aria-hidden="true">5.1.</strong> file paths</a></li><li class="chapter-item expanded "><a href="types/cd.html"><strong aria-hidden="true">5.2.</strong> cd</a></li><li class="chapter-item expanded "><a href="types/int.html"><strong aria-hidden="true">5.3.</strong> ls</a></li><li class="chapter-item expanded "><a href="types/real.html"><strong aria-hidden="true">5.4.</strong> rm</a></li><li class="chapter-item expanded "><a href="types/string.html"><strong aria-hidden="true">5.5.</strong> mv</a></li></ol></li><li class="chapter-item expanded "><a href="types/afs-file-transfer.html"><strong aria-hidden="true">6.</strong> AFS File Transfer</a></li><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">7.</strong> AFS Workflow Overview</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">7.1.</strong> SUB - AFS Workflow Overview</a></li></ol></li><li class="chapter-item expanded "><a href="about.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Welcome!</a></li><li class="chapter-item expanded "><a href="start/install.html"><strong aria-hidden="true">1.</strong> What is AFS?</a></li><li class="chapter-item expanded "><a href="types/index.html"><strong aria-hidden="true">2.</strong> Setting up SSH</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/type.html"><strong aria-hidden="true">2.1.</strong> MacOS</a></li><li class="chapter-item expanded "><a href="type/Linux.html"><strong aria-hidden="true">2.2.</strong> Linux</a></li><li class="chapter-item expanded "><a href="types/sig.html"><strong aria-hidden="true">2.3.</strong> Windows</a></li></ol></li><li class="chapter-item expanded "><a href="debugging/index.html"><strong aria-hidden="true">3.</strong> Using SSH</a></li><li class="chapter-item expanded "><a href="concepts/index.html"><strong aria-hidden="true">4.</strong> Exiting AFS</a></li><li class="chapter-item expanded "><a href="types/linux.html"><strong aria-hidden="true">5.</strong> Basic Linux Commands</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="types/file-paths.html"><strong aria-hidden="true">5.1.</strong> file paths</a></li><li class="chapter-item expanded "><a href="types/cd.html"><strong aria-hidden="true">5.2.</strong> cd</a></li><li class="chapter-item expanded "><a href="types/int.html"><strong aria-hidden="true">5.3.</strong> ls</a></li><li class="chapter-item expanded "><a href="types/real.html"><strong aria-hidden="true">5.4.</strong> rm</a></li><li class="chapter-item expanded "><a href="types/string.html"><strong aria-hidden="true">5.5.</strong> mv</a></li></ol></li><li class="chapter-item expanded "><a href="types/afs-file-transfer.html"><strong aria-hidden="true">6.</strong> AFS File Transfer</a></li><li class="chapter-item expanded "><a href="types/workflow.html"><strong aria-hidden="true">7.</strong> AFS Workflow Overview</a></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -150,7 +150,7 @@ Click on the navigation links on the left to get started!</p>
     width="600" class="center"/>
 </figure>
 <p><strong>SSH</strong> is a secure way for your computer to access an AFS remote host.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="types--signatures"><a class="header" href="#types--signatures">Types &amp; Signatures</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="setting-up-ssh"><a class="header" href="#setting-up-ssh">Setting up SSH</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="setting-up-ssh-on-your-computer"><a class="header" href="#setting-up-ssh-on-your-computer">Setting up SSH on your computer</a></h1>
 <h2 id="macos"><a class="header" href="#macos">MacOS</a></h2>
 <br/>
@@ -204,158 +204,14 @@ First, you should choose a terminal. Your distro almost certainly has one alread
 <p align="center">
     <img src="types/../../img/mobaXTerm1.png">
 </p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="debugging"><a class="header" href="#debugging">Debugging</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="common-errors"><a class="header" href="#common-errors">Common Errors</a></h1>
-<p><em>By Eunice Chen, January 2021</em>. <em>Revised February 2021</em></p>
-<p>In this section, we will explore some common mistakes and errors that may occur
-when programming in Standard ML.</p>
-<h2 id="casing-issues"><a class="header" href="#casing-issues">Casing Issues</a></h2>
-<h3 id="match-nonexhaustive"><a class="header" href="#match-nonexhaustive">Match Nonexhaustive</a></h3>
-<p>Though the code will still compile and run with this warning, it often indicates that the logic in your code does not cover all cases. It is always a good idea to check if you are missing some cases in your thinking, or if the warning comes from a scenario that will never happen according to the function specification. Even if there is a case that may not happen according to the function specification, it may be useful to raise an exception in the &quot;impossible&quot; case to get rid of this warning, because if your code somehow violates the specification and ends up in this case, then you can catch the error and debug it.</p>
-<h3 id="nested-cases"><a class="header" href="#nested-cases">Nested Cases</a></h3>
-<p>When you nest case expressions within case expressions, it's good to wrap your case statements with parentheses. SML will continue to look for patterns to case on, so using parentheses will let it know when to &quot;stop&quot;.</p>
-<p>For example, the following code will compile without warnings:</p>
-<pre><code>case 0 of
-     0 =&gt; (case &quot;x&quot; of _ =&gt; 3)
-   | _ =&gt; 5
+<div style="break-before: page; page-break-before: always;"></div><h1 id="using-ssh"><a class="header" href="#using-ssh">Using SSH</a></h1>
+<p>Open your terminal and type:</p>
+<pre><code>ssh ANDREWID@unix.andrew.cmu.edu
 </code></pre>
-<p>but this code will have a match redundant error and a match nonexhaustive error:</p>
-<pre><code>case 0 of
-     0 =&gt; case &quot;x&quot; of _ =&gt; 3
-   | _ =&gt; 5
+<div style="break-before: page; page-break-before: always;"></div><h1 id="exiting-afs"><a class="header" href="#exiting-afs">Exiting AFS</a></h1>
+<p>In your terminal, hit Ctrl + D (if you are using a Windows computer), Cmd + D (if you are using a Mac) or type:</p>
+<pre><code>exit
 </code></pre>
-<p>Obviously, this example is very contrived, but adding parens may help in nested case expressions.</p>
-<h2 id="associativity-issues"><a class="header" href="#associativity-issues">Associativity Issues</a></h2>
-<p>Since function application is left associative, making sure you have correct parenthesization is very important. It is almost always a good idea to double check your parenthesization in your code, since it can cause very confusing bugs, but can be fixed with a simple check.</p>
-<p>For example, the following code will not compile:</p>
-<pre><code>fun f [] = 0
-  | f x::xs = 1
-</code></pre>
-<p>This fails to compile because function application is left-associative, so the SML compiler thinks that <code>x</code> is the only argument to the function <code>f</code>, and does not know how to parse the extra <code>::xs</code>. A fix for this issue would just to put parens around the <code>x::xs</code>, like so:</p>
-<pre><code>fun f [] = 0
-  | f (x::xs) = 1
-</code></pre>
-<p>Similarly, if some expression is an argument to another function, it is usually good to put parens around that expression. For example, suppose we had some functions <code>f</code> and <code>g</code> of type <code>int -&gt; int</code>, and we would like to apply the function <code>g</code> to the value <code>f 1</code>. Then, if we wrote <code>g f 1</code>, this would not typecheck, since function application is left-associative (writing <code>g f 1</code> would be the same thing as writing <code>((g f) 1)</code>). To fix this, we would write this as <code>g (f 1)</code> to fix the associativity issues.</p>
-<h2 id="equality-type-warnings-ie-a-vs-a"><a class="header" href="#equality-type-warnings-ie-a-vs-a">Equality Type Warnings (i.e. <code>''a</code> vs <code>'a</code>)</a></h2>
-<p>Sometimes, code will fail to typecheck because it expects something of type <code>'a</code> but instead gets something of type <code>''a</code> instead. A plain type variable like <code>'a</code> can be substituted with any type, but something like type <code>''a</code> (with two apostrophes in front) can only be substituted with an <em>equality</em> type. An <em>equality</em> type is a type that can use operators like <code>=</code> and <code>&lt;&gt;</code> to compare their values (<code>int</code>, <code>string</code>, and <code>bool</code> are good examples of equality types). Thus, if your code has an <code>''a</code> instead of an <code>a</code>, it is likely that you are using <code>=</code> or <code>&lt;&gt;</code> to compare values.</p>
-<p>For example, the following function has type <code>''a list * 'a -&gt; bool</code>:</p>
-<pre><code>fun contains (x, []) = false
-  | contains (x, y::ys) = x = y orelse contains (x, ys)
-</code></pre>
-<p>Because <code>x</code> and <code>y</code> are compared by <code>=</code> in the function, then any inputs into the <code>contains</code> function must consist of equality types, so the type is <code>''a list * ''a -&gt; bool</code>.</p>
-<p>However, we might want a function that takes in an <code>'a list</code> instead because it is more general. We still need some way of comparing whether two elements are equal or not, so we will pass in an extra parameter to compare two elements. We can rewrite the function as follows:</p>
-<pre><code>fun contains (cmp, x, []) = false
-  | contains (cmp, x, y::ys) =
-    case cmp (x, y) of
-      EQUAL =&gt; true
-    | _ =&gt; contains (cmp, x, ys)
-</code></pre>
-<p>The type of the function will now be <code>('a * 'a -&gt; order) * 'a list * 'a -&gt; bool</code>.</p>
-<p>In general, it's preferable to use <code>case</code> expressions instead of <code>if-then-else</code> statements with <code>=</code> in the condition.</p>
-<h2 id="t-type-errors"><a class="header" href="#t-type-errors">?.t Type Errors</a></h2>
-<pre><code>errors.sml:9.7-10.18 Error: right-hand-side of clause does not agree with function result type [tycon mismatch]
-  expression:  ?.t
-  result type:  ?.t
-</code></pre>
-<p>Clearly, this is not a very helpful error message. The code that induces this
-error is shown below.</p>
-<pre><code class="language-sml">signature T =
-sig
-  type t val x : t
-end
-
-functor Foo (structure A : T
-             structure B : T) =
-struct
-  fun bar (0 : int) = A.x
-    | bar n = B.x
-end
-</code></pre>
-<p>The reason for this error is because the compiler does not distinguish (in terms
-of name) structures that are given as argument to the functor <code>Foo</code>. Both are
-referred to by <code>?</code>. In other words, it is saying that, on the second line of
-<code>bar</code>, it expected a value of type <code>A.t</code> to be returned, but received one of
-type <code>B.t</code>, namely <code>B.x</code>. Since <code>A</code> and <code>B</code> do not really have names, however,
-it just referred to either structure as <code>?</code>, causing the confusing error.</p>
-<p>If you receive this error, check your structures to make sure that you are not
-conflating types from different structures.</p>
-<h2 id="re-declaring-datatypes"><a class="header" href="#re-declaring-datatypes">Re-declaring Datatypes</a></h2>
-<p>Some datatypes are already present in the SML Basis Library, meaning that you do
-not have to declare them, as they are already present at the top level.
-Re-declaring datatypes anyways, however, can cause type issues that are somewhat
-difficult to debug. Consider the following code:</p>
-<pre><code class="language-sml">fun opt_wrap x = SOME x
-
-datatype 'a option = NONE | SOME of 'a
-
-fun wrap_again (x : int) : int option = opt_wrap x
-</code></pre>
-<p>Although it looks innocuous, we will run into the following type error:</p>
-<pre><code>errors.sml:5.5-5.51 Error: right-hand-side of clause does not agree with function result type [tycon mismatch]
-  expression:  int ?.Assembly.option
-  result type:  int option
-</code></pre>
-<p>The reason for this is because the declaration of <code>'a option</code> on the third line
-creates a new type <code>'a option</code> that &quot;shadows&quot; the basis' definition. This means
-that on line 1, <code>SOME</code> is of the type of the original option, whereas the
-function <code>wrap_again</code> is type-annotated to expect a value of the type of the
-<em>new</em> option.</p>
-<p>In general, re-declaring datatypes is a bad idea that will cause conflicts down
-the road, as it makes your code incompatible with any other code expecting the
-original datatype, such as autograders. Be sure to not re-declare datatypes that
-already exist to avoid this issue.</p>
-<h2 id="forgetting-a-bar"><a class="header" href="#forgetting-a-bar">Forgetting a Bar</a></h2>
-<p>Recall that a bar <code>|</code> is required to delimit different clauses in a function
-definition. For instance, take the following (incorrect) implementation of the
-<code>fact</code> function:</p>
-<pre><code class="language-sml">fun fact (0 : int) : int = 1
-    fact n = n * fact (n - 1)
-</code></pre>
-<p>Compiling this will result in the error:</p>
-<pre><code>errors.sml:2.24 Error: unbound variable or constructor: n
-errors.sml:2.14 Error: unbound variable or constructor: n
-errors.sml:2.10 Error: unbound variable or constructor: n
-errors.sml:1.29-2.30 Error: operator is not a function [overload - bad instantiation]
-  operator: 'Z[INT]
-  in expression:
-    1 fact
-errors.sml:1.6-2.30 Error: right-hand-side of clause does not agree with function result type [tycon mismatch]
-  expression:  bool
-  result type:  int
-  in declaration:
-    fact =
-      (fn 0 : int =&gt;
-            (1 fact) &lt;errorvar&gt; = &lt;errorvar&gt; * fact (&lt;errorvar&gt; - 1): int)
-</code></pre>
-<p>If you see <code>unbound variable or constructor</code> errors where they don't make sense,
-and should not be unbound, it may be the case that you are having a deeper
-syntax issue!</p>
-<h2 id="let-in-without-an-end"><a class="header" href="#let-in-without-an-end">Let in without an end</a></h2>
-<p>Consider the following code snippet:</p>
-<pre><code class="language-sml">fun foo x =
-  let
-    val y =
-      let
-        val z = 3
-      in
-  in
-    4
-  end
-</code></pre>
-<p>Compiling this will result in the error:</p>
-<pre><code>errors.sml:6.7-6.9 Error: syntax error: replacing  IN with  SEMICOLON
-errors.sml:11.1 Error: syntax error found at EOF
-
-uncaught exception Compile [Compile: &quot;syntax error&quot;]
-  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
-             ../compiler/TopLevel/interact/evalloop.sml:45.54
-             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
-</code></pre>
-<p>due to the missing <code>end</code> at the end of the inner <code>let</code>. In general, an error
-that says &quot;replacing&quot; is trying to signal that you have probably put an
-unexpected form of syntax where it shouldn't be - look at precisely what is
-missing to determine what the error is.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="concepts"><a class="header" href="#concepts">Concepts</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="basic-linux-commands"><a class="header" href="#basic-linux-commands">Basic Linux Commands</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="file-paths"><a class="header" href="#file-paths">File Paths</a></h1>
 <p>A file path is a way to specify the location of a file within a file system.</p>
@@ -415,22 +271,36 @@ missing to determine what the error is.</p>
 <p>To transfer a file from your computer to AFS use:</p>
 <pre><code>scp [file path] ANDREWID@unix.andrew.cmu.edu:[desired file path in AFS]
 </code></pre>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="setting-up-ssh-on-your-computer-3"><a class="header" href="#setting-up-ssh-on-your-computer-3">Setting up SSH on your computer</a></h1>
-<h2 id="macos-1"><a class="header" href="#macos-1">MacOS</a></h2>
-<br/>
-<p>Open your built-in terminal: Terminal.app and type the following, replacing <code>ANDREWID</code> with your andrew ID into the terminal.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="afs-workflow-overview"><a class="header" href="#afs-workflow-overview">AFS Workflow Overview</a></h1>
+<hr />
+<p><strong>NOTE</strong>
+Make sure to work on assignments in your private directory, otherwise anyone can see your files which counts as an academic integrity violation!</p>
+<hr />
+<p>Steps:</p>
+<ol>
+<li>ssh into AFS</li>
+</ol>
 <pre><code>ssh ANDREWID@unix.andrew.cmu.edu
 </code></pre>
-<br/>
-<p>The terminal will prompt you to enter your password - use the same password you use to log onto WebISO</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="setting-up-ssh-on-your-computer-4"><a class="header" href="#setting-up-ssh-on-your-computer-4">Setting up SSH on your computer</a></h1>
-<h2 id="macos-2"><a class="header" href="#macos-2">MacOS</a></h2>
-<br/>
-<p>Open your built-in terminal: Terminal.app and type the following, replacing <code>ANDREWID</code> with your andrew ID into the terminal.</p>
-<pre><code>ssh ANDREWID@unix.andrew.cmu.edu
+<ol start="2">
+<li>Enter your private directory</li>
+</ol>
+<pre><code>cd private
 </code></pre>
-<br/>
-<p>The terminal will prompt you to enter your password - use the same password you use to log onto WebISO</p>
+<ol start="3">
+<li>Create a class folder if you haven’t already</li>
+</ol>
+<pre><code>mkdir 15xxx
+</code></pre>
+<ol start="4">
+<li>scp handout into directory (or download from autolab)</li>
+</ol>
+<pre><code>scp C:/User/ABC/homework.tar ANDREWID@unix.andrew.cmu.edu:~/private/15xxx
+</code></pre>
+<ol start="5">
+<li>Use vim or VSCode extension to edit files
+Helpful extensions like SFTP can let you edit files locally and then upload them to AFS from your editor.</li>
+</ol>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="about"><a class="header" href="#about">About</a></h1>
 <p>The AFS Tutorial is created by Roshan Ram, Grace Kang, and Shreya Manjunath, as part of 76-270, 
 Writing for The Professions. We aim to build out a lightweight website, which helps students understand 
