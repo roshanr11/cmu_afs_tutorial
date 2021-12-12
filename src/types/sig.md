@@ -11,7 +11,7 @@ You can either use [Windows Subsystem for Linux](https://docs.microsoft.com/en-u
 2. Open the application to see a prompt where you can directly SSH like you would do on a normal Mac terminal.
 
 <figure class="aligncenter">
-    <img src="../../img/MobaXterm1.png"
+    <img src="../assets/MobaXterm1.png"
     width="600" class="center"/>
 </figure>
 
@@ -20,7 +20,7 @@ You can either use [Windows Subsystem for Linux](https://docs.microsoft.com/en-u
 3. **Save Session (optional)**: If you don’t want to type out your username and hostname every time you SSH into AFS, you can ‘Save Session’. Click the ‘Save session’ button at the top left corner of the MobaXterm window.
 
 <figure class="aligncenter">
-    <img src="../../img/MobaXterm2.png"
+    <img src="../assets/MobaXterm2.png"
     width="600" class="center"/>
 </figure>
 
@@ -30,7 +30,7 @@ You can either use [Windows Subsystem for Linux](https://docs.microsoft.com/en-u
   - **Port: 22**
 
 <figure class="aligncenter">
-    <img src="../../img/mobaXTerm3.png"
+    <img src="../assets/mobaXTerm3.png"
     width="600" class="center"/>
 </figure>
 
