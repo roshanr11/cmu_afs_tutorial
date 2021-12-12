@@ -28,7 +28,7 @@ You can either use [Windows Subsystem for Linux](https://docs.microsoft.com/en-u
   - **Port: 22**
 
 <p align="center">
-    <img src="../../img/mobaXTerm1.png">
+    <img src="../../img/mobaXTerm3.png">
 </p>
 
 
